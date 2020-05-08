@@ -33,3 +33,4 @@ skill id is below
 amzn1.ask.skill.5430ba20-872b-4e13-b3be-c3efa65ac60e
 ARN is below
 arn:aws:lambda:us-east-1:943915732454:function:5430ba20-872b-4e13-b3be-c3efa65ac60e:Release_0
+# CS50
