@@ -1,0 +1,52 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-GB": {
+          "summary": "Learn fun facts about edx courses",
+          "examplePhrases": [
+            "Alexa launch edx courses",
+            "Alexa tell edx courses to give me a fact",
+            "Alexa tell edx courses to tell me trivia"
+          ],
+          "keywords": [
+            "edx",
+            "courses",
+            "facts",
+            "trivia"
+          ],
+          "name": "NeilDixitProject",
+          "description": "Ask for exs cs50 Facts, and learn about what really matters.\n\nTo start, just say \"Alexa, launch edx courses\" or \"Alexa, open edx courses\" to get a fact\".\n\nAt anytime, you can stop by saying \"Alexa, stop\"",
+          "smallIconUri": "file://assets/images/en-GB_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-GB_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "please launch skill using phrase \u0027edx courses\u0027 and use \u0027stop\u0027 or \u0027cancel\u0027 to stop it.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:943915732454:function:1db0b78f-bea7-4748-a7f9-c674815719e9:Release_0"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-GB": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
